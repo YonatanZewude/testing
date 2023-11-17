@@ -52,6 +52,7 @@ export const createHtml = (products: IProduct[], container: HTMLDivElement) => {
 
     title.className = "movie__title";
     title.innerHTML = products[i].name;
+    console.log(title);
 
     imageContainer.className = "movie__image";
     img.src = products[i].imageUrl;
